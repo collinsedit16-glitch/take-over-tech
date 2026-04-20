@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takeover Tech News</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/tabs.js" defer></script>
+    
+</head>
+<body>
+    <HEADER>
+        <header>
+            <h1>logo</h1>
+            <nav>
+                <a href="index.html">home</a>
+                <a href="article.html">Tech</a>
+                <a href="contact.html">contact</a>
+            </nav>
+        </header>
+    </HEADER>
+<section class="hero"> 
+    <img src="images/hero-students-coding.jpg.webp" alt="students coding together">
+    <h2>Teens build app to help homeless</h2>
+    <p> 
+        Three year 11 studenst from london created an app called shelter coennect,
+        helping food banks distribute meals to people in need 
+    </p>
+    <div class="hero button">
+        <a href="article.html"><button>read more</button></a>
+        <a href="#news"><button>jump to News Brief</button></a>
+    </div>
+
+</section>
+            TABS NAVIGATION
+<section class="tab-nav">
+    <button onclick="openTab(gaming)">News in Brief</button>
+    <button onclick="document.getElementById(gallery).scrollIntoView()">gallery</button>
+    <button onclick="document.getElementById(table).scrollIntoView()">laptop comparison </button>
+</section>
+<section id="News">
+    <h2>Tabbed News in Brief</h2>
+    <div class="tabs"> 
+        <button onclick="openTab(gaming)">Gaming </button>
+        <button onclick="openTab(Ai)"> AI </button>
+         <button ondblclick="openTab(social)"> Social Media </button>
+        </section>
+    </div>
+
+
+</body>
+</html>
