@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TakeOver | Tech News for Young People</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+  <!-- SKIP TO CONTENT - accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+ 
+  <!-- NAVIGATION -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="TakeOver home">
+        TAKE <span>OVER</span><em>.</em>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+        <li><a href="article.html" class="nav-link">Tech</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+ 
+  <main id="main-content">
+ 
+    <!-- HERO SECTION -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-content">
+        <span class="hero-tag">Student Innovation</span>
+        <h1 id="hero-heading">Teens from London built an app to help the homeless</h1>
+        <p class="hero-sub">Team Absolute Zero wins the National Youth Tech Summit 2025 with their climate-change app ShelterCover</p>
+        <div class="hero-btns">
+          <a href="article.html" class="btn btn-primary">Read more</a>
+          <a href="#news-brief" class="btn btn-secondary">Jump to news brief</a>
+        </div>
+      </div>
+      <div class="hero-img-wrap">
+        <img src="images/hero-students-coding.jpg.webp" alt="Three diverse teenagers presenting their app ShelterCover on a smartphone at the National Youth Tech Summit" class="hero-img">
+      </div>
+    </section>
+ 
+    <!-- ANCHOR NAVIGATION -->
+    <nav class="anchor-nav" aria-label="Page sections">
+      <a href="#news-brief" class="anchor-pill">News in brief</a>
+      <a href="#gallery" class="anchor-pill">Gallery</a>
+      <a href="#laptop-table" class="anchor-pill">Laptop comparison</a>
+      <a href="#main-content" class="anchor-pill">&#8593; Top</a>
+    </nav>
+ 
+    <!-- TABBED NEWS IN BRIEF -->
+    <section class="tabs-section" id="news-brief" aria-labelledby="tabs-heading">
+      <div class="container">
+        <h2 id="tabs-heading">News in brief</h2>
+        <div class="tabs-wrapper">
+          <div class="tab-list" role="tablist" aria-label="News categories">
+            <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-gaming" id="btn-gaming">Gaming</button>
+            <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-ai" id="btn-ai">AI</button>
+            <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-social" id="btn-social">Social media</button>
+          </div>
+ 
+          <div class="tab-panel active" id="tab-gaming" role="tabpanel" aria-labelledby="btn-gaming">
+            <article class="news-card">
+              <span class="news-cat">Gaming</span>
+              <h3>eSports scholarship opportunities open at three UK universities</h3>
+              <p>Gaming tournaments for students aged 16+ now offer full tuition scholarships. Applications are open until June 2025.</p>
+              <a href="article.html" class="read-link">Read article &rarr;</a>
+            </article>
+            <article class="news-card">
+              <span class="news-cat">Gaming</span>
+              <h3>Absolute Zero team releases a mini game to raise funds for ShelterCover</h3>
+              <p>The award-winning team have launched a browser-based game to help raise money for food bank distribution tech.</p>
+              <a href="article.html" class="read-link">Read article &rarr;</a>
+            </article>
+          </div>
+ 
+          <div class="tab-panel" id="tab-ai" role="tabpanel" aria-labelledby="btn-ai" hidden>
+            <article class="news-card">
+              <span class="news-cat">AI</span>
+              <h3>OpenAI releases new tutor bot for A-level revision</h3>
+              <p>The new AI tutor supports Maths, English, Sciences and History. It is free for all students with a school email address.</p>
+              <a href="article.html" class="read-link">Read article &rarr;</a>
+            </article>
+            <article class="news-card">
+              <span class="news-cat">AI</span>
+              <h3>AI-generated music: is your favourite song actually human?</h3>
+              <p>A new study reveals that 1 in 5 chart songs now uses AI-generated elements. Experts debate what this means for musicians.</p>
+              <a href="article.html" class="read-link">Read article &rarr;</a>
+            </article>
+          </div>
+ 
+          <div class="tab-panel" id="tab-social" role="tabpanel" aria-labelledby="btn-social" hidden>
+            <article class="news-card">
+              <span class="news-cat">Social media</span>
+              <h3>The rise of digital detox apps among 16-year-olds</h3>
+              <p>More teens are using screen time trackers and app blockers to manage social media use. We speak to students about why.</p>
+              <a href="article.html" class="read-link">Read article &rarr;</a>
+            </article>
+            <article class="news-card">
+              <span class="news-cat">Social media</span>
+              <h3>Viral tech challenges: how to spot misinformation online</h3>
+              <p>TakeOver breaks down the five signs that a viral post might not be telling the full story.</p>
+              <a href="article.html" class="read-link">Read article &rarr;</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- IMAGE GALLERY -->
+    <section class="gallery-section" id="gallery" aria-labelledby="gallery-heading">
+      <div class="container">
+        <h2 id="gallery-heading">Young people and technology</h2>
+        <p class="section-sub">Celebrating the achievements and creativity of young tech innovators</p>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="images/gallery-robotics.jpg.webp" alt="Diverse group of students building a robot at a school robotics club in East London" loading="lazy">
+            <figcaption>Students at robotics club, East London</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery-vr.jpg.webp" alt="A teenage girl using a VR headset at a technology exhibition, smiling" loading="lazy">
+            <figcaption>VR headset demo day, Manchester Tech Fest</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery-programming.jpg.webp" alt="Young people collaborating on laptops at a coding workshop" loading="lazy">
+            <figcaption>Coding workshop, Birmingham Digital Hub</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/students-tech-presentation.jpg.jpg" alt="Students working together on a tech project, smiling and collaborating" loading="lazy">
+            <figcaption>Team collaboration, London Youth Tech Hub</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- LAPTOP COMPARISON TABLE -->
+    <section class="table-section" id="laptop-table" aria-labelledby="table-heading">
+      <div class="container">
+        <h2 id="table-heading">Affordable student laptops</h2>
+        <p class="section-sub">Spec comparison to help you choose the best laptop for school and college</p>
+        <div class="table-scroll" role="region" aria-label="Laptop comparison table" tabindex="0">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th scope="col">Laptop model</th>
+                <th scope="col">Weight</th>
+                <th scope="col">Battery life</th>
+                <th scope="col">Price (approx)</th>
+                <th scope="col">Student rating</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HP Pavilion 15</td>
+                <td>1.74 kg</td>
+                <td>5–6 hours</td>
+                <td>£499</td>
+                <td>4 / 5 &#9733;</td>
+              </tr>
+              <tr>
+                <td>Acer Nitro 5</td>
+                <td>2.3 kg</td>
+                <td>6 hours</td>
+                <td>£649</td>
+                <td>4 / 5 &#9733;</td>
+              </tr>
+              <tr>
+                <td>Lenovo IdeaPad 3</td>
+                <td>1.6 kg</td>
+                <td>8 hours</td>
+                <td>£399</td>
+                <td>4.5 / 5 &#9733;</td>
+              </tr>
+              <tr>
+                <td>ASUS VivoBook 15</td>
+                <td>1.8 kg</td>
+                <td>7 hours</td>
+                <td>£449</td>
+                <td>4 / 5 &#9733;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">All prices are approximate and based on major UK retailers as of April 2025. Data is original and compiled by TakeOver.</p>
+      </div>
+    </section>
+ 
+  </main>
+ 
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-logo">TAKE <span>OVER</span><em>.</em></div>
+      <p class="footer-desc">A youth media organisation informing and inspiring young people aged 14–18 about technology, creativity and the future.</p>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#" class="footer-link">Accessibility</a>
+        <a href="#" class="footer-link">Privacy policy</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; TakeOver 2025. All rights reserved.</p>
+    </div>
+  </footer>
+ 
+  <script src="js/tabs.js"></script>
+</body>
+</html>
